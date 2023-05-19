@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Solomon Akpas</title>
+ <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar">
+  <h1 class="logo">SOLOMON AKPAS</h1>
+  <ul class="nav-links">
+   <li class="active"><a href="#"></a>Home</li>
+   <li><a href="#"></a>Tours</li>
+   <li><a href="#"></a>Explore</li>
+   <li><a href="#"></a>About</li>
+   <li class="ctn"><a href="#"></a>Contact</li>
+  </ul>
+  <img src="menu-btn.png" alt="" class="menu-btn">
+ </nav>
+
+ <header>
+  <div class="header-content">
+   <h2>Welcome to The Colorful World</h2>
+   <div class="line"></div>
+   <h1>SOLOMON AKPAS</h1>
+   <a href="#" class="ctn">Learn More</a>
+  </div>
+ </header>
+
+ <!-- == Events == -->
+ <section class="events">
+  <div class="title">
+   <h1>Upcoming Events</h1>
+   <div class="line"></div>
+  </div>
+  <div class="row">
+   <div class="col">
+    <img class="pic" src="/images/img3.jpg" alt="">
+    <h4>Sunday Night Worship</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corrupti non, delectus officia minima maxime.</p>
+    <a href="#" class="ctn">Learn More</a>
+   </div>
+   <div class="col">
+    <img class="pic" src="/images/img7.jpeg" alt="">
+    <h4>Walking Holidays</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus corrupti non, delectus officia minima maxime.</p>
+    <a href="#" class="ctn">Learn More</a>
+   </div>
+  </div>
+ </section>
+
+ <section class="explore">
+  <div class="explore-content">
+   <h1>EXPLORE THE WORLD</h1>
+   <div class="line"></div>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel enim omnis consequuntur laboriosam, itaque culpa
+    dignissimos non sunt. Itaque excepturi, quo molestiae maiores saepe perspiciatis!</p>
+   <a href="#" class="ctn">Learn More</a>
+  </div>
+ </section>
+
+ <section class="tours">
+  <div class="row">
+   <div class="col content-col">
+    <h1>UPCOMING TOURS & DESTINATIONS</h1>
+    <div class="line"></div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea commodi maxime incidunt quod repudiandae expedita dolorum! Eaque error, ipsum nesciunt tenetur placeat blanditiis corrupti minus maxime laudantium officia ullam ab!</p>
+    <a href="#" class="ctn">Learn More</a>
+   </div>
+   <div class="col image-col">
+    <div class="image-gallery">
+     <img class="img-gal" src="images/img1.jpg" alt="">
+     <img class="img-gal" src="images/img2.jpg" alt="">
+     <img class="img-gal" src="images/img5.jpg" alt="">
+     <img class="img-gal" src="images/img6.jpg" alt="">
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section class="footer">
+  <p>18, Hakeem Dickson Drive, Lekki Phase 1, Lagos Nig. | Phone: 08102809730 | Email: solomonakpas@gmail.com</p>
+  <p>Copyright © 2023 Outdoor Adventure </p>
+ </section>
+
+ <script>
+  const menuBtn = document.querySelector('.menu-btn')
+  const navlinks = document.querySelector('.nav-links')
+
+  menuBtn.addEventListener('click',()=>{
+   navlinks.classList.toggle('mobile-menu')
+  })
+ </script>
+</body>
+
+</html>
