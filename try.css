@@ -1,0 +1,32 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+ul{
+ list-style: none;
+}
+
+a{
+ text-decoration: none;
+}
+
+.navBar{
+ position: absolute;
+ display: flex;
+ left: 0;
+ top: 0;
+ width: 100%;
+ padding: 50px;
+ justify-content: space-between;
+ box-shadow: 0px 1px 10px black;
+}
+
+.lists{
+ display: flex;
+ align-items: center;
+}
+
+li{
+ margin: 0 30px;
+}
