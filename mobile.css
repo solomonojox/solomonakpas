@@ -35,6 +35,22 @@
   margin: 30px auto;
  }
 
+ /* body,html */
+  body,
+  html {
+   overflow-x: hidden;
+   font-family: montserrat;
+  }
+
+ /* header */
+ header{
+  display: flex;
+  min-height: auto;
+ }
+ header .head{
+  width: 200px;
+ }
+
  /* event responsive */
  .row {
   flex-direction: column;
