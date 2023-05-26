@@ -15,6 +15,12 @@
   margin-right: 800px;
   display: flex;
  }
+ .logo2{
+  width: 20%;
+  left: 0;
+  top: 0;
+  margin: 0;
+ }
 
  .nav-links {
   flex-direction: column;
@@ -32,7 +38,7 @@
  }
 
  .nav-links li {
-  margin: 8px auto;
+  margin: 4px auto;
  }
 
  /* body,html */
@@ -45,11 +51,17 @@
  /* header */
  header{
   display: flex;
-  height: 120vmin;
+  height: 150vmin;
  }
  header .head{
-  width: 200px;
+  width: 300px;
  }
+
+  .header-content {
+   margin-bottom: 300px;
+   color: whitesmoke;
+   text-align: center;
+  }
 
  /* event responsive */
  .row {

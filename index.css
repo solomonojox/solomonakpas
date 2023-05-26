@@ -111,6 +111,10 @@ header .head{
   transition: all 0.3s ease;
 }
 
+.logo2{
+  display: none;
+}
+
 /* song */
 .singing{
   display: flex;
