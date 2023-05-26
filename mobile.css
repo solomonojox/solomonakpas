@@ -9,8 +9,8 @@
  }
 
  .logo {
-  width: 20%;
-  top: 30px;
+  width: 15%;
+  top: 0px;
   left: 0;
   margin-right: 800px;
   display: flex;
@@ -45,7 +45,7 @@
  /* header */
  header{
   display: flex;
-  min-height: auto;
+  height: 550px;
  }
  header .head{
   width: 200px;
