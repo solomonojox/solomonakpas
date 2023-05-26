@@ -45,7 +45,7 @@
  /* header */
  header{
   display: flex;
-  height: 550px;
+  height: 120vmin;
  }
  header .head{
   width: 200px;
