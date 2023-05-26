@@ -51,14 +51,14 @@
  /* header */
  header{
   display: flex;
-  height: 150vmin;
+  height: 170vmin;
  }
  header .head{
   width: 300px;
  }
 
   .header-content {
-   margin-bottom: 300px;
+   margin-bottom: 250px;
    color: whitesmoke;
    text-align: center;
   }
