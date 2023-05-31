@@ -29,14 +29,14 @@ body, html{
 
 /* Navbar */
 .navbar{
- position: absolute;
- top: 0;
- left: 0;
- display: flex;
- width: 100%;
- justify-content: space-between;
- padding: 0px;
- color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px;
+  color: whitesmoke;
 }
 
 .nav-links{
@@ -189,13 +189,12 @@ p{
   background-image: url('images/img4.jpg');
   background-position: center;
   background-size: cover;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
 }
-
 .explore-content{
-  width: 60%;
+  width: 100%;
   padding: 50px;
   color: whitesmoke;
   display: flex;
