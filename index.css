@@ -99,6 +99,9 @@ header{
  margin-top: 50px;
  margin-bottom: 30px;
 }
+.header-content p{
+  font-size: 20px;
+}
 header .head{
   width: 45%;
   min-width: 400px;
@@ -176,7 +179,8 @@ h4	{
 
 p{
   color: #7c7c7c;
-  padding: 0px 40px;
+  padding: 0px 20px;
+  font: 18px;
 }
 
 .events .ctn{
@@ -225,12 +229,13 @@ p{
   justify-content: center;
 }
 .luke{
-  font-size: 3vmin;
+  font-size: 18px;
   background: #fc036b;
   justify-content: center;
   align-items: center;
   display: flex;
-  margin: 20px;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
   transition: all 0.5s ease;
 }
 .luke:hover{
@@ -244,7 +249,7 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
   transition: all 0.5s ease;
 }
 .proclaim:hover{
