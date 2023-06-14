@@ -57,13 +57,15 @@ html,body{
   height: 150vmin;
   background: rgba(0, 0, 0, 0.6) url(images/solo.png);
   background-blend-mode: darken;
+  align-items: center;
+  justify-content: center;
  }
- header .head{
-display: none;
- }
+  header .head{
+   display: none;
+  }
 
   .header-content {
-   margin-bottom: 150px;
+   margin-bottom: 0px;
    color: whitesmoke;
    text-align: center;
   }
