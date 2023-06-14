@@ -51,14 +51,16 @@
  /* header */
  header{
   display: flex;
-  height: 170vmin;
+  height: 120vmin;
+  background: rgba(0, 0, 0, 0.6) url(images/solo.png);
+  background-blend-mode: darken;
  }
  header .head{
-  width: 300px;
+display: none;
  }
 
   .header-content {
-   margin-bottom: 250px;
+   margin-bottom: 200px;
    color: whitesmoke;
    text-align: center;
   }
