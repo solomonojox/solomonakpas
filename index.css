@@ -22,9 +22,9 @@ ul{
  transition: all 0.3s ease;
 }
 
-body, html{
- overflow-x: hidden;
- font-family: montserrat;
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 /* Navbar */
