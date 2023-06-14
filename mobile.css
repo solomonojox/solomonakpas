@@ -1,5 +1,8 @@
 /* Mobile device */
 @media only screen and (max-width:758px) {
+html,body{
+ overflow-x: hidden;
+}
  .menu-btn {
   display: block;
  }
