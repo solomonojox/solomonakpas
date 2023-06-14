@@ -47,8 +47,7 @@ html,body{
  /* body,html */
   body,
   html {
-   overflow-x: hidden;
-   font-family: montserrat;
+   overflow-y: hidden;
   }
 
  /* header */
