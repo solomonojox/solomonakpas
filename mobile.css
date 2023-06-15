@@ -12,17 +12,12 @@ html,body{
  }
 
  .logo {
-  width: 15%;
-  top: 0px;
-  left: 0;
-  margin-right: 800px;
-  display: flex;
+  display: none;
  }
+
  .logo2{
-  width: 20%;
-  left: 0;
-  top: 0;
-  margin: 0;
+display: block;
+margin-left: 50px;
  }
 
  .nav-links {
@@ -58,7 +53,9 @@ html,body{
   display: flex;
   height: 150vmin;
   background: rgba(0, 0, 0, 0.6) url(images/solo.png);
+  background-repeat: no-repeat;
   background-blend-mode: darken;
+  background-size: cover;
   align-items: center;
   justify-content: center;
  }
