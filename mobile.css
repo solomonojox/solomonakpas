@@ -1,5 +1,5 @@
 /* Mobile device */
-@media only screen and (max-width:758px) {
+@media only screen and (max-width:880px) {
 html,body{
  overflow-x: hidden;
 }
@@ -52,7 +52,7 @@ margin-left: 50px;
  header{
   display: flex;
   height: 150vmin;
-  background: rgba(0, 0, 0, 0.6) url(images/solo.png);
+  background: rgba(0, 0, 0, 0.6) url(images/solo.jpg);
   background-repeat: no-repeat;
   background-blend-mode: darken;
   background-size: cover;

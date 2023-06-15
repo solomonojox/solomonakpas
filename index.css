@@ -7,6 +7,9 @@
  padding: 0;
  box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 a {
  text-decoration: none;
@@ -76,9 +79,11 @@ header{
   justify-content: space-around;
 }
 .header-content{
- margin-bottom: 120px;
+ margin-bottom: 10px;
  color: whitesmoke;
  text-align: center;
+ display: flex;
+ flex-direction: column;
 }
 .header-content h2{
  font-size: 3vmin;
@@ -117,6 +122,33 @@ header .head{
   margin-left: 10px;
   position: absolute;
   display: none;
+}
+
+.arrow{
+  margin-top: 60px;
+  width: 40px;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-40px);
+  }
 }
 
 /* song */
