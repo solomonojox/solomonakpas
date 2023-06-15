@@ -78,8 +78,14 @@ margin-left: 50px;
   flex-direction: column;
   margin: 20px auto;
   background-color: #e7e7e7;
-  padding: 20px 20px;
+  padding: 20px 0;
   gap: 40px;
+ }
+  .events .event-content .col h4{
+   font-size: 20px;
+  }
+ .events .event-content .col p{
+  margin: 0;
  }
 
  /* explore responsive */
