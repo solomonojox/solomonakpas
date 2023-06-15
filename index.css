@@ -264,6 +264,8 @@ p{
 .proclaim .bgd{
   border: 3px #fc036b solid;
   padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
 }
 .proclaim h1{
   margin-bottom: 15px;
@@ -272,7 +274,8 @@ p{
 }
 .proclaim p{
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+  font-size: 18px;
 }
 
 
