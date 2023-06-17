@@ -108,6 +108,7 @@
    .bible{
       left: 0;
       padding: 0;
+      margin-top: 50px;
    }
    .bible p {
       padding: 10px;
